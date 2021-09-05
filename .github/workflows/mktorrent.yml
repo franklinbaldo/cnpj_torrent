@@ -3,17 +3,17 @@ on:
   workflow_dispatch:
     inputs:
       name:
-        description: "Name of the torrent file"
+        description: "K3241.K03200Y1.D10710.EMPRECSV.zip"
         required: true
         default: "Firefox Setup 90.0.2"
       comment:
         description: "Comment"
         required: true
-        default: "Firefox Setup 90.0.2 win64 en-US by torrent-webseed-creator"
+        default: "arquivo"
       url:
         description: "URL of the file"
         required: true
-        default: "https://download-installer.cdn.mozilla.net/pub/firefox/releases/90.0.2/win64/en-US/Firefox%20Setup%2090.0.2.exe"
+        default: "http://200.152.38.155/CNPJ/K3241.K03200Y1.D10710.EMPRECSV.zip"
       file_name:
         description: "File name of the file in the torrent"
         required: true
